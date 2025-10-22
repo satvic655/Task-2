@@ -53,6 +53,7 @@ Outcome
 
 Author
 Name: Satvic  
-Course: B.Tech CSE (Cybersecurity)  
+Course: B.Tech CSE   
 Task: 2 — Phishing Email Analysis  
+
 Date: 22 Oct 2025
