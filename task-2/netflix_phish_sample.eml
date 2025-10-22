@@ -1,0 +1,52 @@
+Return-Path: <bounce@mail-fraud.ru>
+Received: from unknown (HELO mailserver) (198.51.100.23)
+    by mail.example.com with SMTP; Thu, 22 Oct 2025 09:10:12 +0000
+Received-SPF: fail (example.com: domain of bounce@mail-fraud.ru does not designate 198.51.100.23 as permitted sender) receiver=mail.example.com; client-ip=198.51.100.23;
+Authentication-Results: mail.example.com; dkim=none; spf=fail
+Message-ID: <20251022.091012.98765@mailserver>
+From: "Netflix Support" <alerts@netflix-secure-support.com>
+To: satvic@example.org
+Subject: Security Alert — Verify Account Activity
+Date: Thu, 22 Oct 2025 09:09:45 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_98765_12345"
+
+------=_Part_98765_12345
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+We noticed suspicious activity on your Netflix account and temporarily limited access. To avoid permanent deactivation, please verify your account within 24 hours by visiting:
+
+https://www.netflix.com/login
+
+An attachment with your recent billing statement is included.
+
+If you do not confirm within 24 hours your account will be deactivated.
+
+Regards,
+Netflix Account Team
+
+------=_Part_98765_12345
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <p>Hello,</p>
+    <p>We noticed suspicious activity on your Netflix account and temporarily limited access. To avoid permanent deactivation, please <strong>verify your account within 24 hours</strong> by clicking the link below:</p>
+    <p><a href="http://netflix-update-info.ru/login?uid=ab12cd">https://www.netflix.com/login</a></p>
+    <p>An attachment with your recent billing statement is included.</p>
+    <p>If you do not confirm within <strong>24 hours</strong> your account will be deactivated.</p>
+    <p>Regards,<br>Netflix Account Team</p>
+  </body>
+</html>
+
+------=_Part_98765_12345
+Content-Type: application/zip; name="billing_statement.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="billing_statement.zip"
+
+UEsDBBQAAAAI... (truncated base64 for safety)
+------=_Part_98765_12345--
